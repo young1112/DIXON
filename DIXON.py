@@ -10,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("DIXON").main()
+		__import__("DIXON").login()
 	else:
-		__import__("DIXON").main()
+		__import__("DIXON").login()
